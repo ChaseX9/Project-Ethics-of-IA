@@ -1,0 +1,18 @@
+# Data
+numpy
+pandas
+scipy
+# ML
+scikit-learn
+xgboost
+# Visualisation
+matplotlib
+seaborn
+# Ethique / équité / explicabilité
+fairlearn
+aif360
+shap
+lime
+# Notebooks
+jupyterlab
+ipykernel
