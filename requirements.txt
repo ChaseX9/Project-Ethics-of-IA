@@ -5,10 +5,10 @@ numpy
 pandas
 matplotlib
 statsmodels
+scikit-learn
 ipykernel
 # Prévues pour la suite du projet (pas encore importées)
 scipy
-scikit-learn
 xgboost
 seaborn
 fairlearn

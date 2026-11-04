@@ -12,8 +12,11 @@ Le dataset compte 4 200 parties de 856 joueurs, sur 12 mois, réparties par quot
 ```text
 build_dataset.py          collecte via l'API publique de chess.com et découpage train/val/test
 stockfish_features.py     gaffes, erreurs, imprécisions et ACPL calculés avec Stockfish
+build_prompts.py          prompts du LLM et jeu de test de biais par pays, avec vérification de l'anonymat
 01_eda.ipynb              analyse des biais du dataset
+02_baseline.ipynb         modèles de référence à battre pour le LLM
 data/                     CSV générés par les scripts (non versionnés)
+data/prompts/             prompts anonymes au format JSONL (versionnés)
 figures/eda/              graphiques produits par le notebook
 requirements.txt          dépendances
 requirements.lock.txt     versions figées de l'environnement initial (sans chess ni statsmodels)
@@ -49,9 +52,15 @@ python -u stockfish_features.py
 
 # 3. Analyse : exécuter 01_eda.ipynb
 jupyter lab 01_eda.ipynb
+
+# 4. Prompts du LLM : data/prompts/*.jsonl, et data/game_ids.csv pour relier un game_id à sa partie (non versionné)
+python -u build_prompts.py
+
+# 5. Modèles de référence. data/prompts/ suffit, sauf pour les intervalles de confiance (data/game_ids.csv)
+jupyter lab 02_baseline.ipynb
 ```
 
-Les deux scripts reprennent là où ils se sont arrêtés et acceptent `--max-hours`. Une nouvelle collecte ne redonne
+Les scripts de collecte et d'analyse Stockfish reprennent là où ils se sont arrêtés et acceptent `--max-hours`. Une nouvelle collecte ne redonne
 pas les mêmes parties : la fenêtre de 12 mois part de la date du premier lancement, et les journaux de
 `data/checkpoint/` ne sont pas versionnés.
 
