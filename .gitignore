@@ -218,3 +218,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Projet : journaux de reprise et anciennes collectes
+data/checkpoint/
+data/archive_*/
+
+# Projet : données avec les pseudos des joueurs, hors d'un dépôt public
+data/*.csv
+
+# Fichiers de l'OS
+Thumbs.db
+.DS_Store

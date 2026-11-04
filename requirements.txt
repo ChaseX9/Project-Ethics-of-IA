@@ -1,18 +1,18 @@
-# Data
+# Utilisées par le code actuel
+requests
+chess
 numpy
 pandas
+matplotlib
+statsmodels
+ipykernel
+# Prévues pour la suite du projet (pas encore importées)
 scipy
-# ML
 scikit-learn
 xgboost
-# Visualisation
-matplotlib
 seaborn
-# Ethique / équité / explicabilité
 fairlearn
 aif360
 shap
 lime
-# Notebooks
 jupyterlab
-ipykernel
