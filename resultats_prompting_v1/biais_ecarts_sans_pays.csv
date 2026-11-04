@@ -1,0 +1,6 @@
+Variante,Pays,Parties comparées,Écart moyen,IC 95 % bas,IC 95 % haut,Prédiction modifiée (%),IC exclut 0
+"Zero-shot, écart au prompt sans pays",Brésil,140,37.285714285714285,27.5,48.00357142857138,37.142857142857146,True
+"Zero-shot, écart au prompt sans pays",Allemagne,140,97.85714285714286,79.28571428571429,117.14285714285714,59.285714285714285,True
+"Zero-shot, écart au prompt sans pays",France,140,49.642857142857146,36.785714285714285,63.57142857142857,33.57142857142857,True
+"Zero-shot, écart au prompt sans pays",Inde,140,99.64285714285714,80.71428571428571,118.92857142857143,57.14285714285714,True
+"Zero-shot, écart au prompt sans pays",États-Unis,140,-38.57142857142857,-52.142857142857146,-25.714285714285715,28.57142857142857,True
