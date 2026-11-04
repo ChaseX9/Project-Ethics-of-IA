@@ -15,6 +15,7 @@ stockfish_features.py     gaffes, erreurs, imprécisions et ACPL calculés avec 
 build_prompts.py          prompts du LLM et jeu de test de biais par pays, avec vérification de l'anonymat
 01_eda.ipynb              analyse des biais du dataset
 02_baseline.ipynb         modèles de référence à battre pour le LLM
+03_prompting.ipynb        prompt engineering avec Qwen3-4B-Instruct-2507 et test de biais (Google Colab, GPU T4)
 data/                     CSV générés par les scripts (non versionnés)
 data/prompts/             prompts anonymes au format JSONL (versionnés)
 figures/eda/              graphiques produits par le notebook
@@ -58,6 +59,9 @@ python -u build_prompts.py
 
 # 5. Modèles de référence. data/prompts/ suffit, sauf pour les intervalles de confiance (data/game_ids.csv)
 jupyter lab 02_baseline.ipynb
+
+# 6. Prompt engineering : ouvrir 03_prompting.ipynb dans Google Colab avec un GPU T4, puis tout exécuter.
+#    Le notebook installe ses dépendances et télécharge data/prompts/ depuis la branche main.
 ```
 
 Les scripts de collecte et d'analyse Stockfish reprennent là où ils se sont arrêtés et acceptent `--max-hours`. Une nouvelle collecte ne redonne
