@@ -73,6 +73,7 @@ jupyter lab 02_baseline.ipynb
 
 # 8. Fine-tuning : ouvrir 05_finetuning.ipynb dans Google Colab avec un GPU T4, puis tout exécuter.
 #    Résultats et adaptateurs LoRA sur Google Drive, dans ethics_of_ai_finetuning/.
+#    Pour répartir FT-A et FT-B sur deux comptes : voir la marche à suivre en haut du notebook.
 ```
 
 Les scripts de collecte et d'analyse Stockfish reprennent là où ils se sont arrêtés et acceptent `--max-hours`. Une nouvelle collecte ne redonne
