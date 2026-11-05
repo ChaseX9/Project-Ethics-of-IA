@@ -1,0 +1,5 @@
+Variante,Réponses,Illisibles,Ramenées entre 100 et 3000,Valeurs distinctes,Part de la valeur la plus fréquente (%),Prédiction médiane,"Tokens du prompt, en moyenne"
+rag_test,437,0,0,199,6.178489702517163,1450.0,1152.8741418764303
+rag_no_country_test,437,0,0,207,6.178489702517163,1500.0,1144.537757437071
+rag_no_country_bias,140,0,0,85,7.857142857142857,1466.5,1141.4142857142858
+rag_bias,700,0,0,101,6.428571428571428,1450.0,1150.2142857142858
