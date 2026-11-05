@@ -7,12 +7,12 @@ matplotlib
 statsmodels
 scikit-learn
 ipykernel
+shap
+lime
 # Prévues pour la suite du projet (pas encore importées)
 scipy
 xgboost
 seaborn
 fairlearn
 aif360
-shap
-lime
 jupyterlab
