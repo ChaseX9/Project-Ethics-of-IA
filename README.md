@@ -17,8 +17,10 @@ build_prompts.py          prompts du LLM et jeu de test de biais par pays, avec 
 02_baseline.ipynb         modèles de référence à battre pour le LLM
 03_prompting.ipynb        prompt engineering avec Qwen3-4B-Instruct-2507 et test de biais (Google Colab, GPU T4)
 04_rag.ipynb              RAG avec le même modèle : 10 parties voisines de train dans le prompt (Google Colab, GPU T4)
+05_finetuning.ipynb       fine-tuning QLoRA du même modèle, avec le vrai pays ou un pays tiré au hasard (Google Colab, GPU T4)
 resultats_prompting_v1/   première exécution de 03_prompting.ipynb, relue par la seconde pour ne pas la recalculer
-resultats_prompting_v2/   seconde exécution, relue par 04_rag.ipynb pour la comparaison
+resultats_prompting_v2/   seconde exécution, relue par 04_rag.ipynb et 05_finetuning.ipynb pour la comparaison
+resultats_rag/            exécution de 04_rag.ipynb, relue par 05_finetuning.ipynb pour la comparaison
 data/                     CSV générés par les scripts (non versionnés)
 data/prompts/             prompts anonymes au format JSONL (versionnés)
 figures/eda/              graphiques produits par le notebook
@@ -68,6 +70,9 @@ jupyter lab 02_baseline.ipynb
 #    Il ne calcule que les variantes nouvelles et écrit dans resultats_prompting_v2/.
 
 # 7. RAG : ouvrir 04_rag.ipynb dans Google Colab avec un GPU T4, puis tout exécuter. Résultats dans resultats_rag/.
+
+# 8. Fine-tuning : ouvrir 05_finetuning.ipynb dans Google Colab avec un GPU T4, puis tout exécuter.
+#    Résultats et adaptateurs LoRA sur Google Drive, dans ethics_of_ai_finetuning/.
 ```
 
 Les scripts de collecte et d'analyse Stockfish reprennent là où ils se sont arrêtés et acceptent `--max-hours`. Une nouvelle collecte ne redonne
