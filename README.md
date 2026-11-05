@@ -66,7 +66,7 @@ jupyter lab 02_baseline.ipynb
 # 6. Prompt engineering : ouvrir 03_prompting.ipynb dans Google Colab avec un GPU T4, puis tout exécuter.
 #    Le notebook installe ses dépendances et télécharge data/prompts/ et resultats_prompting_v1/ depuis la branche main.
 #    Il ne calcule que les variantes nouvelles et écrit dans resultats_prompting_v2/.
-r
+
 # 7. RAG : ouvrir 04_rag.ipynb dans Google Colab avec un GPU T4, puis tout exécuter. Résultats dans resultats_rag/.
 ```
 
