@@ -18,6 +18,7 @@ build_prompts.py          prompts du LLM et jeu de test de biais par pays, avec 
 03_prompting.ipynb        prompt engineering avec Qwen3-4B-Instruct-2507 et test de biais (Google Colab, GPU T4)
 04_rag.ipynb              RAG avec le même modèle : 10 parties voisines de train dans le prompt (Google Colab, GPU T4)
 05_finetuning.ipynb       fine-tuning QLoRA du même modèle, avec le vrai pays ou un pays tiré au hasard (Google Colab, GPU T4)
+05_finetuning_kaggle.ipynb  même fine-tuning sur Kaggle (GPU T4, Save & Run All), une version par exécution
 06_xai.ipynb              XAI du LLM : SHAP et LIME par masquage pour zero-shot, FT-A et FT-B, et part du pays (Google Colab, GPU T4)
 06b_xai_baseline.ipynb    XAI du modèle de référence : SHAP (TreeExplainer) sur le gradient boosting de 02_baseline.ipynb (CPU)
 resultats_prompting_v1/   première exécution de 03_prompting.ipynb, relue par la seconde pour ne pas la recalculer
@@ -77,6 +78,8 @@ jupyter lab 02_baseline.ipynb
 # 8. Fine-tuning : ouvrir 05_finetuning.ipynb dans Google Colab avec un GPU T4, puis tout exécuter.
 #    Résultats et adaptateurs LoRA sur Google Drive, dans ethics_of_ai_finetuning/.
 #    Pour répartir FT-A et FT-B sur deux comptes : voir la marche à suivre en haut du notebook.
+#    Sans GPU sur Colab : 05_finetuning_kaggle.ipynb fait le même calcul sur Kaggle (GPU T4, Save & Run All),
+#    une version par exécution. La section 12 de 05_finetuning.ipynb rassemble ensuite FT-A et FT-B.
 
 # 9. XAI : ouvrir 06_xai.ipynb dans Google Colab avec un GPU T4, puis tout exécuter.
 #    FT-A et FT-B demandent leurs adaptateurs sur Google Drive, dans ethics_of_ai_finetuning/adaptateurs/. Résultats dans ethics_of_ai_xai/.
