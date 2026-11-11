@@ -232,3 +232,6 @@ data/*.csv
 # Fichiers de l'OS
 Thumbs.db
 .DS_Store
+
+# Projet : sorties Kaggle brutes du fine-tuning, avec les adaptateurs LoRA (127 Mo)
+resultat_finetuning/
