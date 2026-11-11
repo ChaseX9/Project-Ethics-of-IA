@@ -235,3 +235,6 @@ Thumbs.db
 
 # Projet : sorties Kaggle brutes du fine-tuning, avec les adaptateurs LoRA (127 Mo)
 resultat_finetuning/
+
+# Projet : correspondance des parties de la démo (prénoms, pseudos, liens), locale
+data/demo_joueurs.csv
