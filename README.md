@@ -13,6 +13,51 @@ l'échantillon, données manquantes).
 Le dataset compte 4 200 parties de 856 joueurs, sur 12 mois, réparties par quotas en 7 tranches d'Elo et 5 pays
 (FR, IN, US, BR, DE). Le découpage 80/10/10 se fait par joueur.
 
+## Soutenance
+
+Les slides de notre soutenance (9 minutes) sont dans [`presentation/soutenance_ethics_AI.pdf`](presentation/soutenance_ethics_AI.pdf),
+avec le texte oral dans [`presentation/texte_oral.md`](presentation/texte_oral.md).
+
+<a href="presentation/soutenance_ethics_AI.pdf"><img src="presentation/apercu/slide-01.png" alt="Page de titre de la soutenance" width="720"></a>
+
+Les deux slides qui résument le projet : sur nos propres parties, le modèle de base classe le joueur le plus fort
+dernier et le nôtre le classe premier. Et quand on présente le même joueur comme américain plutôt que français,
+le modèle de base lui retire 95 points d'Elo, alors que le nôtre ne bouge pas.
+
+<table>
+<tr><td><img src="presentation/apercu/slide-27.png" alt="Slide 27 : Elo prédit pour chaque joueur"></td><td><img src="presentation/apercu/slide-28.png" alt="Slide 28 : le même joueur présenté comme français ou américain"></td></tr>
+</table>
+
+<details>
+<summary><b>Toutes les slides (1 à 30)</b></summary>
+
+<table>
+<tr><td><a href="presentation/apercu/slide-01.png"><img src="presentation/apercu/slide-01.png" alt="Slide 1"></a></td><td><a href="presentation/apercu/slide-02.png"><img src="presentation/apercu/slide-02.png" alt="Slide 2"></a></td><td><a href="presentation/apercu/slide-03.png"><img src="presentation/apercu/slide-03.png" alt="Slide 3"></a></td></tr>
+<tr><td><a href="presentation/apercu/slide-04.png"><img src="presentation/apercu/slide-04.png" alt="Slide 4"></a></td><td><a href="presentation/apercu/slide-05.png"><img src="presentation/apercu/slide-05.png" alt="Slide 5"></a></td><td><a href="presentation/apercu/slide-06.png"><img src="presentation/apercu/slide-06.png" alt="Slide 6"></a></td></tr>
+<tr><td><a href="presentation/apercu/slide-07.png"><img src="presentation/apercu/slide-07.png" alt="Slide 7"></a></td><td><a href="presentation/apercu/slide-08.png"><img src="presentation/apercu/slide-08.png" alt="Slide 8"></a></td><td><a href="presentation/apercu/slide-09.png"><img src="presentation/apercu/slide-09.png" alt="Slide 9"></a></td></tr>
+<tr><td><a href="presentation/apercu/slide-10.png"><img src="presentation/apercu/slide-10.png" alt="Slide 10"></a></td><td><a href="presentation/apercu/slide-11.png"><img src="presentation/apercu/slide-11.png" alt="Slide 11"></a></td><td><a href="presentation/apercu/slide-12.png"><img src="presentation/apercu/slide-12.png" alt="Slide 12"></a></td></tr>
+<tr><td><a href="presentation/apercu/slide-13.png"><img src="presentation/apercu/slide-13.png" alt="Slide 13"></a></td><td><a href="presentation/apercu/slide-14.png"><img src="presentation/apercu/slide-14.png" alt="Slide 14"></a></td><td><a href="presentation/apercu/slide-15.png"><img src="presentation/apercu/slide-15.png" alt="Slide 15"></a></td></tr>
+<tr><td><a href="presentation/apercu/slide-16.png"><img src="presentation/apercu/slide-16.png" alt="Slide 16"></a></td><td><a href="presentation/apercu/slide-17.png"><img src="presentation/apercu/slide-17.png" alt="Slide 17"></a></td><td><a href="presentation/apercu/slide-18.png"><img src="presentation/apercu/slide-18.png" alt="Slide 18"></a></td></tr>
+<tr><td><a href="presentation/apercu/slide-19.png"><img src="presentation/apercu/slide-19.png" alt="Slide 19"></a></td><td><a href="presentation/apercu/slide-20.png"><img src="presentation/apercu/slide-20.png" alt="Slide 20"></a></td><td><a href="presentation/apercu/slide-21.png"><img src="presentation/apercu/slide-21.png" alt="Slide 21"></a></td></tr>
+<tr><td><a href="presentation/apercu/slide-22.png"><img src="presentation/apercu/slide-22.png" alt="Slide 22"></a></td><td><a href="presentation/apercu/slide-23.png"><img src="presentation/apercu/slide-23.png" alt="Slide 23"></a></td><td><a href="presentation/apercu/slide-24.png"><img src="presentation/apercu/slide-24.png" alt="Slide 24"></a></td></tr>
+<tr><td><a href="presentation/apercu/slide-25.png"><img src="presentation/apercu/slide-25.png" alt="Slide 25"></a></td><td><a href="presentation/apercu/slide-26.png"><img src="presentation/apercu/slide-26.png" alt="Slide 26"></a></td><td><a href="presentation/apercu/slide-27.png"><img src="presentation/apercu/slide-27.png" alt="Slide 27"></a></td></tr>
+<tr><td><a href="presentation/apercu/slide-28.png"><img src="presentation/apercu/slide-28.png" alt="Slide 28"></a></td><td><a href="presentation/apercu/slide-29.png"><img src="presentation/apercu/slide-29.png" alt="Slide 29"></a></td><td><a href="presentation/apercu/slide-30.png"><img src="presentation/apercu/slide-30.png" alt="Slide 30"></a></td></tr>
+</table>
+
+</details>
+
+<details>
+<summary><b>Annexes (31 à 41)</b></summary>
+
+<table>
+<tr><td><a href="presentation/apercu/slide-31.png"><img src="presentation/apercu/slide-31.png" alt="Slide 31"></a></td><td><a href="presentation/apercu/slide-32.png"><img src="presentation/apercu/slide-32.png" alt="Slide 32"></a></td><td><a href="presentation/apercu/slide-33.png"><img src="presentation/apercu/slide-33.png" alt="Slide 33"></a></td></tr>
+<tr><td><a href="presentation/apercu/slide-34.png"><img src="presentation/apercu/slide-34.png" alt="Slide 34"></a></td><td><a href="presentation/apercu/slide-35.png"><img src="presentation/apercu/slide-35.png" alt="Slide 35"></a></td><td><a href="presentation/apercu/slide-36.png"><img src="presentation/apercu/slide-36.png" alt="Slide 36"></a></td></tr>
+<tr><td><a href="presentation/apercu/slide-37.png"><img src="presentation/apercu/slide-37.png" alt="Slide 37"></a></td><td><a href="presentation/apercu/slide-38.png"><img src="presentation/apercu/slide-38.png" alt="Slide 38"></a></td><td><a href="presentation/apercu/slide-39.png"><img src="presentation/apercu/slide-39.png" alt="Slide 39"></a></td></tr>
+<tr><td><a href="presentation/apercu/slide-40.png"><img src="presentation/apercu/slide-40.png" alt="Slide 40"></a></td><td><a href="presentation/apercu/slide-41.png"><img src="presentation/apercu/slide-41.png" alt="Slide 41"></a></td></tr>
+</table>
+
+</details>
+
 ## Structure
 
 ```text
