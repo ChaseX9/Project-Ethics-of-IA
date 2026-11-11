@@ -1,5 +1,11 @@
 # Project-Ethics-of-IA
 
+**Auteurs :** Thibault Rabbé, Hugo Rivière, Maël Vaudin
+
+Projet scolaire réalisé en M2 Data & IA à l'ECE (2026-2027), dans le cadre du cours Ethics of AI.
+Le sujet porte sur les biais d'un modèle d'IA : on étudie ce qu'un LLM qui prédit l'Elo d'un joueur d'échecs
+apprend en plus du niveau de jeu, et on audite ses prédictions avec des méthodes d'explicabilité (XAI).
+
 Construction et audit d'un dataset de parties rapides chess.com, destiné à un modèle de prédiction de l'Elo.
 L'objectif est de repérer ce qu'un tel modèle pourrait apprendre d'autre que le niveau de jeu (pays, origine de
 l'échantillon, données manquantes).
