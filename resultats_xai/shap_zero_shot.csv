@@ -1,0 +1,325 @@
+ensemble,game_id,pays_reel,elo,prediction,variable,valeur,shap,bruit,base,ecart_additivite,illisibles
+test,g0024,DE,294,1800.0,country,Allemagne,40.0,34.09545424246463,1810.0,0.0,0
+test,g0024,DE,294,1800.0,color,noirs,0.0,0.0,1810.0,0.0,0
+test,g0024,DE,294,1800.0,opening_name,Queens Pawn Opening 1...d5 2.c3,-40.0,21.79449471770337,1810.0,0.0,0
+test,g0024,DE,294,1800.0,result,victoire,0.0,0.0,1810.0,0.0,0
+test,g0024,DE,294,1800.0,termination,abandon,-20.0,9.354143466934854,1810.0,0.0,0
+test,g0024,DE,294,1800.0,nb_moves,47,0.0,7.905694150420948,1810.0,0.0,0
+test,g0024,DE,294,1800.0,nb_blunders,12,-15.0,6.123724356957945,1810.0,0.0,0
+test,g0024,DE,294,1800.0,blunders_per_move,"0,255",-5.0,5.0,1810.0,0.0,0
+test,g0024,DE,294,1800.0,nb_mistakes,1,5.0,5.0,1810.0,0.0,0
+test,g0024,DE,294,1800.0,nb_inaccuracies,6,0.0,0.0,1810.0,0.0,0
+test,g0024,DE,294,1800.0,acpl,"229,7",10.0,6.123724356957945,1810.0,0.0,0
+test,g0024,DE,294,1800.0,first_moves,1. d4 d5 2. c3 e6 …,15.0,10.0,1810.0,0.0,0
+test,g0350,DE,1231,1850.0,country,Allemagne,10.0,10.0,1720.0,0.0,0
+test,g0350,DE,1231,1850.0,color,blancs,0.0,0.0,1720.0,0.0,0
+test,g0350,DE,1231,1850.0,opening_name,Queens Pawn Opening Accelerated L…,10.0,10.0,1720.0,0.0,0
+test,g0350,DE,1231,1850.0,result,victoire,55.0,54.99999999999999,1720.0,0.0,0
+test,g0350,DE,1231,1850.0,termination,échec et mat,30.0,29.999999999999996,1720.0,0.0,0
+test,g0350,DE,1231,1850.0,nb_moves,65,25.0,7.905694150420948,1720.0,0.0,0
+test,g0350,DE,1231,1850.0,nb_blunders,8,-20.0,9.354143466934854,1720.0,0.0,0
+test,g0350,DE,1231,1850.0,blunders_per_move,"0,123",5.0,5.0,1720.0,0.0,0
+test,g0350,DE,1231,1850.0,nb_mistakes,2,0.0,0.0,1720.0,0.0,0
+test,g0350,DE,1231,1850.0,nb_inaccuracies,6,0.0,0.0,1720.0,0.0,0
+test,g0350,DE,1231,1850.0,acpl,"107,4",20.0,9.354143466934854,1720.0,0.0,0
+test,g0350,DE,1231,1850.0,first_moves,1. d4 d5 2. Bf4 Nc6 …,-5.0,5.0,1720.0,0.0,0
+test,g1120,DE,1911,1850.0,country,Allemagne,20.0,20.0,1740.0,0.0,0
+test,g1120,DE,1911,1850.0,color,blancs,0.0,0.0,1740.0,0.0,0
+test,g1120,DE,1911,1850.0,opening_name,Alapin Sicilian Defense...3.Nf3 N…,25.0,7.905694150420948,1740.0,0.0,0
+test,g1120,DE,1911,1850.0,result,victoire,60.0,59.99999999999999,1740.0,0.0,0
+test,g1120,DE,1911,1850.0,termination,abandon,-15.0,10.0,1740.0,0.0,0
+test,g1120,DE,1911,1850.0,nb_moves,49,15.0,10.0,1740.0,0.0,0
+test,g1120,DE,1911,1850.0,nb_blunders,12,-10.0,6.123724356957945,1740.0,0.0,0
+test,g1120,DE,1911,1850.0,blunders_per_move,"0,245",0.0,0.0,1740.0,0.0,0
+test,g1120,DE,1911,1850.0,nb_mistakes,3,0.0,0.0,1740.0,0.0,0
+test,g1120,DE,1911,1850.0,nb_inaccuracies,3,0.0,0.0,1740.0,0.0,0
+test,g1120,DE,1911,1850.0,acpl,"133,2",20.0,9.354143466934854,1740.0,0.0,0
+test,g1120,DE,1911,1850.0,first_moves,1. e4 c5 2. d4 Nc6 …,-5.0,5.0,1740.0,0.0,0
+test,g1495,IN,506,1850.0,country,Inde,25.0,25.0,1630.0,0.0,0
+test,g1495,IN,506,1850.0,color,noirs,-5.0,5.0,1630.0,0.0,0
+test,g1495,IN,506,1850.0,opening_name,Bishops Opening Berlin Defense 3.…,-15.0,14.999999999999998,1630.0,0.0,0
+test,g1495,IN,506,1850.0,result,victoire,130.0,79.60841664045329,1630.0,0.0,0
+test,g1495,IN,506,1850.0,termination,échec et mat,55.0,25.49509756796392,1630.0,0.0,0
+test,g1495,IN,506,1850.0,nb_moves,26,-15.0,6.123724356957945,1630.0,0.0,0
+test,g1495,IN,506,1850.0,nb_blunders,3,10.0,6.123724356957945,1630.0,0.0,0
+test,g1495,IN,506,1850.0,blunders_per_move,"0,115",10.0,10.0,1630.0,0.0,0
+test,g1495,IN,506,1850.0,nb_mistakes,2,10.0,6.123724356957945,1630.0,0.0,0
+test,g1495,IN,506,1850.0,nb_inaccuracies,4,-10.0,10.0,1630.0,0.0,0
+test,g1495,IN,506,1850.0,acpl,"120,7",25.0,7.905694150420948,1630.0,0.0,0
+test,g1495,IN,506,1850.0,first_moves,1. e4 e5 2. Bc4 Nf6 …,0.0,0.0,1630.0,0.0,0
+test,g1601,FR,455,1800.0,country,France,20.0,78.4219357067906,1610.0,0.0,0
+test,g1601,FR,455,1800.0,color,blancs,-40.0,29.1547594742265,1610.0,0.0,0
+test,g1601,FR,455,1800.0,opening_name,Van t Kruijs Opening 1...d5,-60.0,24.49489742783178,1610.0,0.0,0
+test,g1601,FR,455,1800.0,result,victoire,140.0,87.17797887081348,1610.0,0.0,0
+test,g1601,FR,455,1800.0,termination,échec et mat,170.0,20.0,1610.0,0.0,0
+test,g1601,FR,455,1800.0,nb_moves,40,0.0,15.811388300841896,1610.0,0.0,0
+test,g1601,FR,455,1800.0,nb_blunders,0,50.0,38.72983346207417,1610.0,0.0,0
+test,g1601,FR,455,1800.0,blunders_per_move,"0,000",-30.0,20.0,1610.0,0.0,0
+test,g1601,FR,455,1800.0,nb_mistakes,0,0.0,0.0,1610.0,0.0,0
+test,g1601,FR,455,1800.0,nb_inaccuracies,5,0.0,0.0,1610.0,0.0,0
+test,g1601,FR,455,1800.0,acpl,"23,6",-5.0,16.583123951776997,1610.0,0.0,0
+test,g1601,FR,455,1800.0,first_moves,1. e3 d5 2. c3 Nf6 …,-55.0,37.416573867739416,1610.0,0.0,0
+test,g1852,US,707,1500.0,country,États-Unis,-190.0,32.21024681681281,1640.0,0.0,0
+test,g1852,US,707,1500.0,color,noirs,0.0,0.0,1640.0,0.0,0
+test,g1852,US,707,1500.0,opening_name,English Opening Four Knights King…,-50.0,27.386127875258307,1640.0,0.0,0
+test,g1852,US,707,1500.0,result,victoire,110.0,67.82329983125268,1640.0,0.0,0
+test,g1852,US,707,1500.0,termination,abandon,-30.0,20.0,1640.0,0.0,0
+test,g1852,US,707,1500.0,nb_moves,32,0.0,13.693063937629153,1640.0,0.0,0
+test,g1852,US,707,1500.0,nb_blunders,2,20.0,20.0,1640.0,0.0,0
+test,g1852,US,707,1500.0,blunders_per_move,"0,062",0.0,0.0,1640.0,0.0,0
+test,g1852,US,707,1500.0,nb_mistakes,0,0.0,0.0,1640.0,0.0,0
+test,g1852,US,707,1500.0,nb_inaccuracies,1,0.0,0.0,1640.0,0.0,0
+test,g1852,US,707,1500.0,acpl,"37,4",0.0,0.0,1640.0,0.0,0
+test,g1852,US,707,1500.0,first_moves,1. c4 e5 2. Nc3 Bc5 …,0.0,0.0,1640.0,0.0,0
+test,g2569,FR,1332,1800.0,country,France,-5.0,5.0,1750.0,0.0,0
+test,g2569,FR,1332,1800.0,color,blancs,0.0,0.0,1750.0,0.0,0
+test,g2569,FR,1332,1800.0,opening_name,Queens Pawn Opening Accelerated L…,15.0,14.999999999999998,1750.0,0.0,0
+test,g2569,FR,1332,1800.0,result,victoire,80.0,80.0,1750.0,0.0,0
+test,g2569,FR,1332,1800.0,termination,abandon,-10.0,10.0,1750.0,0.0,0
+test,g2569,FR,1332,1800.0,nb_moves,36,0.0,0.0,1750.0,0.0,0
+test,g2569,FR,1332,1800.0,nb_blunders,0,0.0,7.905694150420948,1750.0,0.0,0
+test,g2569,FR,1332,1800.0,blunders_per_move,"0,000",-10.0,6.123724356957945,1750.0,0.0,0
+test,g2569,FR,1332,1800.0,nb_mistakes,1,5.0,5.0,1750.0,0.0,0
+test,g2569,FR,1332,1800.0,nb_inaccuracies,1,-5.0,5.0,1750.0,0.0,0
+test,g2569,FR,1332,1800.0,acpl,"15,8",-20.0,9.354143466934854,1750.0,0.0,0
+test,g2569,FR,1332,1800.0,first_moves,1. d4 d5 2. Bf4 Nf6 …,0.0,0.0,1750.0,0.0,0
+test,g2635,BR,282,1400.0,country,Brésil,-30.0,31.024184114977142,1680.0,0.0,0
+test,g2635,BR,282,1400.0,color,blancs,10.0,10.0,1680.0,0.0,0
+test,g2635,BR,282,1400.0,opening_name,Bishops Opening,-25.0,15.811388300841896,1680.0,0.0,0
+test,g2635,BR,282,1400.0,result,défaite,-265.0,76.0756202735147,1680.0,0.0,0
+test,g2635,BR,282,1400.0,termination,échec et mat,20.0,12.24744871391589,1680.0,0.0,0
+test,g2635,BR,282,1400.0,nb_moves,33,5.0,5.0,1680.0,0.0,0
+test,g2635,BR,282,1400.0,nb_blunders,1,0.0,0.0,1680.0,0.0,0
+test,g2635,BR,282,1400.0,blunders_per_move,"0,030",0.0,0.0,1680.0,0.0,0
+test,g2635,BR,282,1400.0,nb_mistakes,0,0.0,0.0,1680.0,0.0,0
+test,g2635,BR,282,1400.0,nb_inaccuracies,2,20.0,20.0,1680.0,0.0,0
+test,g2635,BR,282,1400.0,acpl,"65,2",5.0,20.0,1680.0,0.0,0
+test,g2635,BR,282,1400.0,first_moves,1. e4 e5 2. Bc4 f6 …,-20.0,12.24744871391589,1680.0,0.0,0
+test,g3138,BR,1105,1500.0,country,Brésil,-80.0,33.91164991562634,1660.0,0.0,0
+test,g3138,BR,1105,1500.0,color,blancs,0.0,0.0,1660.0,0.0,0
+test,g3138,BR,1105,1500.0,opening_name,Italian Game Knight Attack Normal…,-50.0,28.50438562747845,1660.0,0.0,0
+test,g3138,BR,1105,1500.0,result,nulle,-45.0,95.65563234854496,1660.0,0.0,0
+test,g3138,BR,1105,1500.0,termination,pat,10.0,10.0,1660.0,0.0,0
+test,g3138,BR,1105,1500.0,nb_moves,34,0.0,0.0,1660.0,0.0,0
+test,g3138,BR,1105,1500.0,nb_blunders,2,15.0,10.0,1660.0,0.0,0
+test,g3138,BR,1105,1500.0,blunders_per_move,"0,059",5.0,5.0,1660.0,0.0,0
+test,g3138,BR,1105,1500.0,nb_mistakes,1,0.0,0.0,1660.0,0.0,0
+test,g3138,BR,1105,1500.0,nb_inaccuracies,0,-5.0,5.0,1660.0,0.0,0
+test,g3138,BR,1105,1500.0,acpl,"78,6",0.0,0.0,1660.0,0.0,0
+test,g3138,BR,1105,1500.0,first_moves,1. e4 e5 2. Nf3 Nc6 …,-10.0,6.123724356957945,1660.0,0.0,0
+test,g3556,IN,1810,1600.0,country,Inde,45.0,33.91164991562634,1690.0,0.0,0
+test,g3556,IN,1810,1600.0,color,noirs,0.0,0.0,1690.0,0.0,0
+test,g3556,IN,1810,1600.0,opening_name,Four Knights Game Italian Noa Gam…,60.0,29.1547594742265,1690.0,0.0,0
+test,g3556,IN,1810,1600.0,result,défaite,-190.0,55.67764362830022,1690.0,0.0,0
+test,g3556,IN,1810,1600.0,termination,abandon,-20.0,20.0,1690.0,0.0,0
+test,g3556,IN,1810,1600.0,nb_moves,52,0.0,0.0,1690.0,0.0,0
+test,g3556,IN,1810,1600.0,nb_blunders,5,0.0,0.0,1690.0,0.0,0
+test,g3556,IN,1810,1600.0,blunders_per_move,"0,098",0.0,0.0,1690.0,0.0,0
+test,g3556,IN,1810,1600.0,nb_mistakes,1,0.0,0.0,1690.0,0.0,0
+test,g3556,IN,1810,1600.0,nb_inaccuracies,1,20.0,20.0,1690.0,0.0,0
+test,g3556,IN,1810,1600.0,acpl,"64,7",0.0,0.0,1690.0,0.0,0
+test,g3556,IN,1810,1600.0,first_moves,1. e4 e5 2. Nf3 Nf6 …,-5.0,20.0,1690.0,0.0,0
+test,g4076,US,1684,1800.0,country,États-Unis,-85.0,34.99999999999999,1690.0,0.0,0
+test,g4076,US,1684,1800.0,color,blancs,10.0,10.0,1690.0,0.0,0
+test,g4076,US,1684,1800.0,opening_name,Queens Pawn Opening Zukertort Var…,-10.0,35.881750236018306,1690.0,0.0,0
+test,g4076,US,1684,1800.0,result,victoire,105.0,73.48469228349533,1690.0,0.0,0
+test,g4076,US,1684,1800.0,termination,abandon,-80.0,25.49509756796392,1690.0,0.0,0
+test,g4076,US,1684,1800.0,nb_moves,66,55.0,35.707142142714254,1690.0,0.0,0
+test,g4076,US,1684,1800.0,nb_blunders,1,25.0,19.364916731037084,1690.0,0.0,0
+test,g4076,US,1684,1800.0,blunders_per_move,"0,015",20.0,20.0,1690.0,0.0,0
+test,g4076,US,1684,1800.0,nb_mistakes,0,35.0,21.79449471770337,1690.0,0.0,0
+test,g4076,US,1684,1800.0,nb_inaccuracies,3,0.0,0.0,1690.0,0.0,0
+test,g4076,US,1684,1800.0,acpl,"19,1",50.0,15.811388300841896,1690.0,0.0,0
+test,g4076,US,1684,1800.0,first_moves,1. c3 d5 2. d4 c6 …,-15.0,14.999999999999998,1690.0,0.0,0
+test,g4167,BR,1954,1500.0,country,Brésil,-15.0,26.92582403567252,1540.0,0.0,0
+test,g4167,BR,1954,1500.0,color,blancs,-10.0,10.0,1540.0,0.0,0
+test,g4167,BR,1954,1500.0,opening_name,Caro Kann Defense,20.0,20.0,1540.0,0.0,0
+test,g4167,BR,1954,1500.0,result,défaite,-120.0,75.16648189186454,1540.0,0.0,0
+test,g4167,BR,1954,1500.0,termination,abandon,-10.0,10.0,1540.0,0.0,0
+test,g4167,BR,1954,1500.0,nb_moves,66,40.0,29.1547594742265,1540.0,0.0,0
+test,g4167,BR,1954,1500.0,nb_blunders,1,10.0,18.708286933869708,1540.0,0.0,0
+test,g4167,BR,1954,1500.0,blunders_per_move,"0,015",0.0,0.0,1540.0,0.0,0
+test,g4167,BR,1954,1500.0,nb_mistakes,1,5.0,12.24744871391589,1540.0,0.0,0
+test,g4167,BR,1954,1500.0,nb_inaccuracies,2,10.0,10.0,1540.0,0.0,0
+test,g4167,BR,1954,1500.0,acpl,"23,6",0.0,0.0,1540.0,0.0,0
+test,g4167,BR,1954,1500.0,first_moves,1. e4 c6 2. Bc4 d5 …,30.0,12.24744871391589,1540.0,0.0,0
+demo,demo_j1_p1,FR,969,1800.0,country,France,55.0,29.999999999999996,1730.0,0.0,0
+demo,demo_j1_p1,FR,969,1800.0,color,noirs,0.0,0.0,1730.0,0.0,0
+demo,demo_j1_p1,FR,969,1800.0,opening_name,French Defense Exchange Variation…,-45.0,20.0,1730.0,0.0,0
+demo,demo_j1_p1,FR,969,1800.0,result,victoire,40.0,40.0,1730.0,0.0,0
+demo,demo_j1_p1,FR,969,1800.0,termination,échec et mat,5.0,5.0,1730.0,0.0,0
+demo,demo_j1_p1,FR,969,1800.0,nb_moves,44,15.0,14.999999999999998,1730.0,0.0,0
+demo,demo_j1_p1,FR,969,1800.0,nb_blunders,1,0.0,0.0,1730.0,0.0,0
+demo,demo_j1_p1,FR,969,1800.0,blunders_per_move,"0,023",0.0,0.0,1730.0,0.0,0
+demo,demo_j1_p1,FR,969,1800.0,nb_mistakes,1,-15.0,14.999999999999998,1730.0,0.0,0
+demo,demo_j1_p1,FR,969,1800.0,nb_inaccuracies,1,-5.0,5.0,1730.0,0.0,0
+demo,demo_j1_p1,FR,969,1800.0,acpl,"25,9",20.0,20.0,1730.0,0.0,0
+demo,demo_j1_p1,FR,969,1800.0,first_moves,1. e4 e6 2. Nf3 d5 …,0.0,0.0,1730.0,0.0,0
+demo,demo_j1_p2,FR,957,1400.0,country,France,-30.0,12.24744871391589,1580.0,0.0,0
+demo,demo_j1_p2,FR,957,1400.0,color,blancs,20.0,14.57737973711325,1580.0,0.0,0
+demo,demo_j1_p2,FR,957,1400.0,opening_name,Queens Pawn Opening Zukertort Chi…,25.0,15.811388300841896,1580.0,0.0,0
+demo,demo_j1_p2,FR,957,1400.0,result,défaite,-140.0,87.17797887081348,1580.0,0.0,0
+demo,demo_j1_p2,FR,957,1400.0,termination,abandon,-10.0,10.0,1580.0,0.0,0
+demo,demo_j1_p2,FR,957,1400.0,nb_moves,21,-15.0,10.0,1580.0,0.0,0
+demo,demo_j1_p2,FR,957,1400.0,nb_blunders,2,10.0,10.0,1580.0,0.0,0
+demo,demo_j1_p2,FR,957,1400.0,blunders_per_move,"0,095",0.0,0.0,1580.0,0.0,0
+demo,demo_j1_p2,FR,957,1400.0,nb_mistakes,0,0.0,0.0,1580.0,0.0,0
+demo,demo_j1_p2,FR,957,1400.0,nb_inaccuracies,1,0.0,0.0,1580.0,0.0,0
+demo,demo_j1_p2,FR,957,1400.0,acpl,"113,0",-30.0,24.23839928708164,1580.0,0.0,0
+demo,demo_j1_p2,FR,957,1400.0,first_moves,1. d4 d5 2. Bf4 Nc6 …,-10.0,10.0,1580.0,0.0,0
+demo,demo_j1_p3,FR,969,1400.0,country,France,50.0,41.83300132670377,1580.0,0.0,0
+demo,demo_j1_p3,FR,969,1400.0,color,blancs,-20.0,12.24744871391589,1580.0,0.0,0
+demo,demo_j1_p3,FR,969,1400.0,opening_name,Queens Pawn Opening Accelerated L…,-5.0,16.583123951776997,1580.0,0.0,0
+demo,demo_j1_p3,FR,969,1400.0,result,défaite,-215.0,90.0,1580.0,0.0,0
+demo,demo_j1_p3,FR,969,1400.0,termination,abandon,0.0,0.0,1580.0,0.0,0
+demo,demo_j1_p3,FR,969,1400.0,nb_moves,29,10.0,10.0,1580.0,0.0,0
+demo,demo_j1_p3,FR,969,1400.0,nb_blunders,5,-20.0,12.24744871391589,1580.0,0.0,0
+demo,demo_j1_p3,FR,969,1400.0,blunders_per_move,"0,172",0.0,0.0,1580.0,0.0,0
+demo,demo_j1_p3,FR,969,1400.0,nb_mistakes,2,0.0,0.0,1580.0,0.0,0
+demo,demo_j1_p3,FR,969,1400.0,nb_inaccuracies,6,-10.0,10.0,1580.0,0.0,0
+demo,demo_j1_p3,FR,969,1400.0,acpl,"123,5",40.0,16.95582495781317,1580.0,0.0,0
+demo,demo_j1_p3,FR,969,1400.0,first_moves,1. d4 d5 2. Bf4 f6 …,-10.0,10.0,1580.0,0.0,0
+demo,demo_j2_p1,FR,506,1800.0,country,France,50.0,41.83300132670377,1650.0,0.0,0
+demo,demo_j2_p1,FR,506,1800.0,color,blancs,0.0,0.0,1650.0,0.0,0
+demo,demo_j2_p1,FR,506,1800.0,opening_name,Queens Pawn Opening Chigorin Vari…,-10.0,10.0,1650.0,0.0,0
+demo,demo_j2_p1,FR,506,1800.0,result,victoire,140.0,87.17797887081348,1650.0,0.0,0
+demo,demo_j2_p1,FR,506,1800.0,termination,déconnexion,-10.0,10.0,1650.0,0.0,0
+demo,demo_j2_p1,FR,506,1800.0,nb_moves,25,-5.0,5.0,1650.0,0.0,0
+demo,demo_j2_p1,FR,506,1800.0,nb_blunders,0,20.0,12.24744871391589,1650.0,0.0,0
+demo,demo_j2_p1,FR,506,1800.0,blunders_per_move,"0,000",-15.0,10.0,1650.0,0.0,0
+demo,demo_j2_p1,FR,506,1800.0,nb_mistakes,1,0.0,0.0,1650.0,0.0,0
+demo,demo_j2_p1,FR,506,1800.0,nb_inaccuracies,3,0.0,0.0,1650.0,0.0,0
+demo,demo_j2_p1,FR,506,1800.0,acpl,"51,9",0.0,0.0,1650.0,0.0,0
+demo,demo_j2_p1,FR,506,1800.0,first_moves,1. d4 d5 2. Nf3 Nf6 …,-20.0,20.0,1650.0,0.0,0
+demo,demo_j2_p2,FR,498,1800.0,country,France,45.0,29.999999999999996,1530.0,0.0,0
+demo,demo_j2_p2,FR,498,1800.0,color,blancs,15.0,14.999999999999998,1530.0,0.0,0
+demo,demo_j2_p2,FR,498,1800.0,opening_name,Indian Game 2.Nc3 e6 3.e4,15.0,14.999999999999998,1530.0,0.0,0
+demo,demo_j2_p2,FR,498,1800.0,result,victoire,240.0,69.19176251549023,1530.0,0.0,0
+demo,demo_j2_p2,FR,498,1800.0,termination,abandon,-20.0,12.24744871391589,1530.0,0.0,0
+demo,demo_j2_p2,FR,498,1800.0,nb_moves,44,25.0,15.811388300841896,1530.0,0.0,0
+demo,demo_j2_p2,FR,498,1800.0,nb_blunders,5,-15.0,14.999999999999998,1530.0,0.0,0
+demo,demo_j2_p2,FR,498,1800.0,blunders_per_move,"0,114",-10.0,10.0,1530.0,0.0,0
+demo,demo_j2_p2,FR,498,1800.0,nb_mistakes,2,-25.0,15.811388300841896,1530.0,0.0,0
+demo,demo_j2_p2,FR,498,1800.0,nb_inaccuracies,5,5.0,5.0,1530.0,0.0,0
+demo,demo_j2_p2,FR,498,1800.0,acpl,"108,0",-25.0,17.67766952966369,1530.0,0.0,0
+demo,demo_j2_p2,FR,498,1800.0,first_moves,1. d4 Nf6 2. Nc3 e6 …,20.0,12.24744871391589,1530.0,0.0,0
+demo,demo_j2_p3,FR,490,1400.0,country,France,-25.0,25.0,1570.0,0.0,0
+demo,demo_j2_p3,FR,490,1400.0,color,noirs,0.0,0.0,1570.0,0.0,0
+demo,demo_j2_p3,FR,490,1400.0,opening_name,Kings Pawn Opening 1...e5,0.0,0.0,1570.0,0.0,0
+demo,demo_j2_p3,FR,490,1400.0,result,défaite,-185.0,113.90785749894516,1570.0,0.0,0
+demo,demo_j2_p3,FR,490,1400.0,termination,échec et mat,20.0,12.24744871391589,1570.0,0.0,0
+demo,demo_j2_p3,FR,490,1400.0,nb_moves,67,20.0,12.24744871391589,1570.0,0.0,0
+demo,demo_j2_p3,FR,490,1400.0,nb_blunders,8,-40.0,10.0,1570.0,0.0,0
+demo,demo_j2_p3,FR,490,1400.0,blunders_per_move,"0,121",-10.0,10.0,1570.0,0.0,0
+demo,demo_j2_p3,FR,490,1400.0,nb_mistakes,2,0.0,0.0,1570.0,0.0,0
+demo,demo_j2_p3,FR,490,1400.0,nb_inaccuracies,3,0.0,0.0,1570.0,0.0,0
+demo,demo_j2_p3,FR,490,1400.0,acpl,"117,5",20.0,9.354143466934854,1570.0,0.0,0
+demo,demo_j2_p3,FR,490,1400.0,first_moves,1. e4 e5 2. Qh5 d6 …,30.0,20.0,1570.0,0.0,0
+demo,demo_j3_p1,FR,844,1500.0,country,France,-15.0,18.708286933869708,1600.0,0.0,0
+demo,demo_j3_p1,FR,844,1500.0,color,blancs,0.0,0.0,1600.0,0.0,0
+demo,demo_j3_p1,FR,844,1500.0,opening_name,Italian Game,50.0,0.0,1600.0,0.0,0
+demo,demo_j3_p1,FR,844,1500.0,result,défaite,-130.0,80.0,1600.0,0.0,0
+demo,demo_j3_p1,FR,844,1500.0,termination,échec et mat,10.0,10.0,1600.0,0.0,0
+demo,demo_j3_p1,FR,844,1500.0,nb_moves,48,20.0,12.24744871391589,1600.0,0.0,0
+demo,demo_j3_p1,FR,844,1500.0,nb_blunders,2,20.0,12.24744871391589,1600.0,0.0,0
+demo,demo_j3_p1,FR,844,1500.0,blunders_per_move,"0,042",-5.0,5.0,1600.0,0.0,0
+demo,demo_j3_p1,FR,844,1500.0,nb_mistakes,1,0.0,0.0,1600.0,0.0,0
+demo,demo_j3_p1,FR,844,1500.0,nb_inaccuracies,2,-10.0,10.0,1600.0,0.0,0
+demo,demo_j3_p1,FR,844,1500.0,acpl,"51,1",-25.0,11.180339887498947,1600.0,0.0,0
+demo,demo_j3_p1,FR,844,1500.0,first_moves,1. e4 e5 2. Nf3 Nc6 …,-15.0,10.0,1600.0,0.0,0
+demo,demo_j3_p2,FR,888,1400.0,country,France,10.0,10.0,1740.0,0.0,0
+demo,demo_j3_p2,FR,888,1400.0,color,blancs,-10.0,10.0,1740.0,0.0,0
+demo,demo_j3_p2,FR,888,1400.0,opening_name,Kings Pawn Opening 1...e5,-10.0,10.0,1740.0,0.0,0
+demo,demo_j3_p2,FR,888,1400.0,result,défaite,-325.0,82.53787009609589,1740.0,0.0,0
+demo,demo_j3_p2,FR,888,1400.0,termination,échec et mat,0.0,0.0,1740.0,0.0,0
+demo,demo_j3_p2,FR,888,1400.0,nb_moves,34,0.0,0.0,1740.0,0.0,0
+demo,demo_j3_p2,FR,888,1400.0,nb_blunders,6,-10.0,10.0,1740.0,0.0,0
+demo,demo_j3_p2,FR,888,1400.0,blunders_per_move,"0,176",0.0,0.0,1740.0,0.0,0
+demo,demo_j3_p2,FR,888,1400.0,nb_mistakes,1,-5.0,5.0,1740.0,0.0,0
+demo,demo_j3_p2,FR,888,1400.0,nb_inaccuracies,4,-5.0,5.0,1740.0,0.0,0
+demo,demo_j3_p2,FR,888,1400.0,acpl,"110,1",5.0,5.0,1740.0,0.0,0
+demo,demo_j3_p2,FR,888,1400.0,first_moves,1. e4 e5 2. f3 Nc6 …,10.0,10.0,1740.0,0.0,0
+demo,demo_j3_p3,FR,944,1850.0,country,France,25.0,33.54101966249684,1540.0,0.0,0
+demo,demo_j3_p3,FR,944,1850.0,color,noirs,0.0,0.0,1540.0,0.0,0
+demo,demo_j3_p3,FR,944,1850.0,opening_name,Philidor Defense 3.Bc4,-5.0,5.0,1540.0,0.0,0
+demo,demo_j3_p3,FR,944,1850.0,result,victoire,245.0,102.89557813628338,1540.0,0.0,0
+demo,demo_j3_p3,FR,944,1850.0,termination,échec et mat,15.0,10.0,1540.0,0.0,0
+demo,demo_j3_p3,FR,944,1850.0,nb_moves,29,0.0,0.0,1540.0,0.0,0
+demo,demo_j3_p3,FR,944,1850.0,nb_blunders,4,5.0,5.0,1540.0,0.0,0
+demo,demo_j3_p3,FR,944,1850.0,blunders_per_move,"0,138",0.0,0.0,1540.0,0.0,0
+demo,demo_j3_p3,FR,944,1850.0,nb_mistakes,3,20.0,14.57737973711325,1540.0,0.0,0
+demo,demo_j3_p3,FR,944,1850.0,nb_inaccuracies,1,5.0,5.0,1540.0,0.0,0
+demo,demo_j3_p3,FR,944,1850.0,acpl,"110,7",10.0,18.708286933869708,1540.0,0.0,0
+demo,demo_j3_p3,FR,944,1850.0,first_moves,1. e4 e5 2. Nf3 d6 …,-10.0,12.74754878398196,1540.0,0.0,0
+demo,demo_j4_p1,FR,1471,1400.0,country,France,25.0,31.622776601683793,1690.0,0.0,0
+demo,demo_j4_p1,FR,1471,1400.0,color,blancs,0.0,0.0,1690.0,0.0,0
+demo,demo_j4_p1,FR,1471,1400.0,opening_name,Queens Pawn Opening Horwitz Defen…,-5.0,12.24744871391589,1690.0,0.0,0
+demo,demo_j4_p1,FR,1471,1400.0,result,défaite,-305.0,79.21489758877429,1690.0,0.0,0
+demo,demo_j4_p1,FR,1471,1400.0,termination,échec et mat,0.0,0.0,1690.0,0.0,0
+demo,demo_j4_p1,FR,1471,1400.0,nb_moves,43,10.0,6.123724356957945,1690.0,0.0,0
+demo,demo_j4_p1,FR,1471,1400.0,nb_blunders,1,5.0,5.0,1690.0,0.0,0
+demo,demo_j4_p1,FR,1471,1400.0,blunders_per_move,"0,023",0.0,0.0,1690.0,0.0,0
+demo,demo_j4_p1,FR,1471,1400.0,nb_mistakes,0,0.0,0.0,1690.0,0.0,0
+demo,demo_j4_p1,FR,1471,1400.0,nb_inaccuracies,4,-5.0,5.0,1690.0,0.0,0
+demo,demo_j4_p1,FR,1471,1400.0,acpl,"45,7",-10.0,6.123724356957945,1690.0,0.0,0
+demo,demo_j4_p1,FR,1471,1400.0,first_moves,1. d4 f5 2. Nf3 e6 …,-5.0,5.0,1690.0,0.0,0
+demo,demo_j4_p1_us,US,1471,1300.0,country,États-Unis,-80.0,25.49509756796392,1690.0,0.0,0
+demo,demo_j4_p1_us,US,1471,1300.0,color,blancs,0.0,0.0,1690.0,0.0,0
+demo,demo_j4_p1_us,US,1471,1300.0,opening_name,Queens Pawn Opening Horwitz Defen…,-10.0,25.739075352467502,1690.0,0.0,0
+demo,demo_j4_p1_us,US,1471,1300.0,result,défaite,-240.0,63.04760106459245,1690.0,0.0,0
+demo,demo_j4_p1_us,US,1471,1300.0,termination,échec et mat,15.0,14.999999999999998,1690.0,0.0,0
+demo,demo_j4_p1_us,US,1471,1300.0,nb_moves,43,-5.0,12.24744871391589,1690.0,0.0,0
+demo,demo_j4_p1_us,US,1471,1300.0,nb_blunders,1,-25.0,15.811388300841896,1690.0,0.0,0
+demo,demo_j4_p1_us,US,1471,1300.0,blunders_per_move,"0,023",10.0,10.0,1690.0,0.0,0
+demo,demo_j4_p1_us,US,1471,1300.0,nb_mistakes,0,-10.0,10.0,1690.0,0.0,0
+demo,demo_j4_p1_us,US,1471,1300.0,nb_inaccuracies,4,-25.0,15.811388300841896,1690.0,0.0,0
+demo,demo_j4_p1_us,US,1471,1300.0,acpl,"45,7",-5.0,16.583123951776997,1690.0,0.0,0
+demo,demo_j4_p1_us,US,1471,1300.0,first_moves,1. d4 f5 2. Nf3 e6 …,-15.0,14.999999999999998,1690.0,0.0,0
+demo,demo_j4_p2,FR,1479,1500.0,country,France,10.0,29.1547594742265,1660.0,0.0,0
+demo,demo_j4_p2,FR,1479,1500.0,color,noirs,0.0,0.0,1660.0,0.0,0
+demo,demo_j4_p2,FR,1479,1500.0,opening_name,Queens Pawn Opening Zukertort Var…,30.0,12.24744871391589,1660.0,0.0,0
+demo,demo_j4_p2,FR,1479,1500.0,result,défaite,-225.0,92.87087810503354,1660.0,0.0,0
+demo,demo_j4_p2,FR,1479,1500.0,termination,échec et mat,10.0,10.0,1660.0,0.0,0
+demo,demo_j4_p2,FR,1479,1500.0,nb_moves,55,20.0,12.24744871391589,1660.0,0.0,0
+demo,demo_j4_p2,FR,1479,1500.0,nb_blunders,1,0.0,0.0,1660.0,0.0,0
+demo,demo_j4_p2,FR,1479,1500.0,blunders_per_move,"0,019",-5.0,5.0,1660.0,0.0,0
+demo,demo_j4_p2,FR,1479,1500.0,nb_mistakes,3,0.0,0.0,1660.0,0.0,0
+demo,demo_j4_p2,FR,1479,1500.0,nb_inaccuracies,10,-10.0,10.0,1660.0,0.0,0
+demo,demo_j4_p2,FR,1479,1500.0,acpl,"52,5",0.0,15.811388300841896,1660.0,0.0,0
+demo,demo_j4_p2,FR,1479,1500.0,first_moves,1. d4 e6 2. Bf4 d5 …,10.0,10.0,1660.0,0.0,0
+demo,demo_j4_p2_us,US,1479,1400.0,country,États-Unis,-105.0,39.05124837953327,1660.0,0.0,0
+demo,demo_j4_p2_us,US,1479,1400.0,color,noirs,0.0,0.0,1660.0,0.0,0
+demo,demo_j4_p2_us,US,1479,1400.0,opening_name,Queens Pawn Opening Zukertort Var…,-10.0,10.0,1660.0,0.0,0
+demo,demo_j4_p2_us,US,1479,1400.0,result,défaite,-170.0,75.58108228915486,1660.0,0.0,0
+demo,demo_j4_p2_us,US,1479,1400.0,termination,échec et mat,0.0,0.0,1660.0,0.0,0
+demo,demo_j4_p2_us,US,1479,1400.0,nb_moves,55,10.0,10.0,1660.0,0.0,0
+demo,demo_j4_p2_us,US,1479,1400.0,nb_blunders,1,20.0,20.0,1660.0,0.0,0
+demo,demo_j4_p2_us,US,1479,1400.0,blunders_per_move,"0,019",-5.0,5.0,1660.0,0.0,0
+demo,demo_j4_p2_us,US,1479,1400.0,nb_mistakes,3,0.0,0.0,1660.0,0.0,0
+demo,demo_j4_p2_us,US,1479,1400.0,nb_inaccuracies,10,-10.0,10.0,1660.0,0.0,0
+demo,demo_j4_p2_us,US,1479,1400.0,acpl,"52,5",-10.0,10.0,1660.0,0.0,0
+demo,demo_j4_p2_us,US,1479,1400.0,first_moves,1. d4 e6 2. Bf4 d5 …,20.0,12.24744871391589,1660.0,0.0,0
+demo,demo_j4_p3,FR,1487,1400.0,country,France,5.0,27.83882181415011,1700.0,0.0,0
+demo,demo_j4_p3,FR,1487,1400.0,color,blancs,0.0,0.0,1700.0,0.0,0
+demo,demo_j4_p3,FR,1487,1400.0,opening_name,Indian Game London System 3...b6 …,-10.0,10.0,1700.0,0.0,0
+demo,demo_j4_p3,FR,1487,1400.0,result,défaite,-260.0,76.0756202735147,1700.0,0.0,0
+demo,demo_j4_p3,FR,1487,1400.0,termination,abandon,-30.0,20.0,1700.0,0.0,0
+demo,demo_j4_p3,FR,1487,1400.0,nb_moves,34,0.0,0.0,1700.0,0.0,0
+demo,demo_j4_p3,FR,1487,1400.0,nb_blunders,4,0.0,0.0,1700.0,0.0,0
+demo,demo_j4_p3,FR,1487,1400.0,blunders_per_move,"0,118",0.0,0.0,1700.0,0.0,0
+demo,demo_j4_p3,FR,1487,1400.0,nb_mistakes,1,0.0,0.0,1700.0,0.0,0
+demo,demo_j4_p3,FR,1487,1400.0,nb_inaccuracies,2,0.0,0.0,1700.0,0.0,0
+demo,demo_j4_p3,FR,1487,1400.0,acpl,"68,7",-5.0,5.0,1700.0,0.0,0
+demo,demo_j4_p3,FR,1487,1400.0,first_moves,1. d4 b6 2. Bf4 Bb7 …,0.0,0.0,1700.0,0.0,0
+demo,demo_j4_p3_us,US,1487,1300.0,country,États-Unis,-105.0,40.6201920231798,1700.0,0.0,0
+demo,demo_j4_p3_us,US,1487,1300.0,color,blancs,0.0,0.0,1700.0,0.0,0
+demo,demo_j4_p3_us,US,1487,1300.0,opening_name,Indian Game London System 3...b6 …,0.0,0.0,1700.0,0.0,0
+demo,demo_j4_p3_us,US,1487,1300.0,result,défaite,-220.0,70.44501401802684,1700.0,0.0,0
+demo,demo_j4_p3_us,US,1487,1300.0,termination,abandon,-60.0,18.708286933869708,1700.0,0.0,0
+demo,demo_j4_p3_us,US,1487,1300.0,nb_moves,34,0.0,0.0,1700.0,0.0,0
+demo,demo_j4_p3_us,US,1487,1300.0,nb_blunders,4,-10.0,10.0,1700.0,0.0,0
+demo,demo_j4_p3_us,US,1487,1300.0,blunders_per_move,"0,118",0.0,0.0,1700.0,0.0,0
+demo,demo_j4_p3_us,US,1487,1300.0,nb_mistakes,1,0.0,0.0,1700.0,0.0,0
+demo,demo_j4_p3_us,US,1487,1300.0,nb_inaccuracies,2,0.0,0.0,1700.0,0.0,0
+demo,demo_j4_p3_us,US,1487,1300.0,acpl,"68,7",-5.0,5.0,1700.0,0.0,0
+demo,demo_j4_p3_us,US,1487,1300.0,first_moves,1. d4 b6 2. Bf4 Bb7 …,0.0,0.0,1700.0,0.0,0
