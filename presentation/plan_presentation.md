@@ -44,9 +44,9 @@ Tous les chiffres ont été recalculés à partir des CSV du dépôt. Ceux-ci é
 | 6 | RAG : « écarts < 20 points » | Juste pour l'**écart moyen à la France** (au plus +17,5). Partie par partie, le pays change encore 36 % des prédictions (étendue moyenne 58). | `biais_ecarts_france.csv`, `biais_etendue_par_partie.csv` |
 | 7 | « Effet du pays » 150 → 16 | Juste. C'est l'**étendue moyenne** : même partie avec les 5 pays, plus haute prédiction moins plus basse, moyenne sur 140 parties. 120 = few-shot v2. | `resultats_finetuning_complets/biais_etendue_par_partie.csv` |
 | 8 | « Le pays pèse 15 % » | **15,5 %** (SHAP), 2e variable sur 12 ; 1,0 % (FT-A), 0,2 % (FT-B). | `resultats_xai/part_du_pays.csv` |
-| 9 | Paul : « le nôtre, presque rien » | Modèle de base : −100 sur chacune des 3 parties. FT-B : +100, 0, 0, soit **+33 en moyenne** : il ne le pénalise pas. | `resultats_demo/france_etats_unis.csv` |
+| 9 | Paul : « retire 100 Elo ; le nôtre, presque rien » | Sur ses 10 parties : le modèle de base retire **95 points en moyenne** (7 parties sur 10, jusqu'à −200). FT-B : **+10 en moyenne** (une seule partie bouge, de +100) : il ne le pénalise pas. | `resultats_demo/france_etats_unis.csv` |
 | 10 | Comptes « bannis » exclus | Tous les **comptes fermés** sont exclus, dont les bannis pour triche. | `build_dataset.py` |
-| 11 | Démo : « 10 parties, 5 pour Hugo » | `resultats_demo/` a été produit avec l'**ancien** `demo.jsonl` : **3 parties par joueur**. Les slides le disent. Pour passer à 10, relancer 06c avec le nouveau `demo.jsonl` dans le Dataset Kaggle. | `resultats_demo/elo_moyen_par_joueur.csv` (`Parties` = 3) |
+| 11 | Démo : « 10 parties, 5 pour Hugo » | Confirmé après la nouvelle exécution de 06c (Dataset Kaggle `ethics-of-ai-xai-10-parties`) : 10 parties pour Thibault, Maël et Paul, 5 pour Hugo ; 88 prédictions par modèle, toutes lues. Les 3 premières parties de chacun redonnent exactement les valeurs de 06_xai. | `resultats_demo/elo_moyen_par_joueur.csv` (`Parties` = 10, 10, 5, 10) |
 
 ---
 
@@ -57,6 +57,8 @@ Tous les chiffres ont été recalculés à partir des CSV du dépôt. Ceux-ci é
 - **Slides de transition** (titre, feuille de route, bilan, annexes) : fond sarcelle avec un motif discret d'échiquier en fondu.
 - **Une seule famille d'icônes :** Font Awesome 6 Free (pleines), via `react-icons`.
 - **Couleurs des méthodes, constantes partout :** Zero-shot brique `#C8553D`, Few-shot ambre `#E9A23B`, RAG prune `#7A5C99`, FT-A bleu `#3A86C8`, FT-B sarcelle ECE `#036F78`. Chaque ligne porte aussi l'icône et le nom de sa méthode, pour rester lisible en noir et blanc.
+- **Numéros de page :** dans un pion dessiné (sarcelle sur fond blanc, blanc sur fond sarcelle), le numéro dans la tête du pion.
+- **Texte oral :** `presentation/texte_oral.md`, à lire et répéter, page par page, avec les [clic].
 - **Badges de coups (dessin maison) :** « ! » bleu `#2F7FD8` (bon coup), « !! » sarcelle `#1BA39C` (seul coup gagnant), « ?? » rouge `#D7263D` (gaffe, case entourée de rouge). Pastille ronde dans le coin de la case d'arrivée, flèche du dernier coup.
 
 ## Logos et ressources externes
@@ -89,7 +91,7 @@ Analyse à la profondeur 18 (Stockfish installé sur le PC), avec la règle de n
 
 ## Slide 0 — Titre (page 1, aucun temps de parole)
 
-**Affiché :** « Ethics of AI · ING5 · ECE 2026-2027 » ; titre **« Deviner l'Elo d'un joueur d'échecs en une partie, sans préjugé de nationalité »** ; sous-titre « Peut-on estimer le niveau d'un joueur à partir d'une seule partie, et le faire équitablement, quel que soit son pays ? » ; **Thibault Rabbé · Maël Vaudin · Hugo Riviere** ; logo ECE blanc. Fond sarcelle à motif d'échiquier, sans photo.
+**Affiché :** « **Ethics_of_AI_ECE_DATA_IA** » puis « ING5 · ECE 2026-2027 » ; titre **« Deviner l'Elo d'un joueur d'échecs en une partie, sans préjugé de nationalité »** ; sous-titre « Peut-on estimer le niveau d'un joueur à partir d'une seule partie, et le faire équitablement, quel que soit son pays ? » ; **Thibault Rabbé · Maël Vaudin · Hugo Riviere** ; logo ECE blanc. Fond sarcelle à motif d'échiquier, sans photo.
 
 ---
 
@@ -301,38 +303,38 @@ Légende en icônes (une par variable), puis **15,5 % → 0,2 %** (part du pays 
 
 **Titre :** « Le modèle de base classe Paul dernier ; le nôtre, premier »
 
-**Affiché :** sous-titre « Elo moyen sur nos 3 dernières parties rapides · règle de 100 à 2 000 » ; une carte par joueur, avec sa photo et une règle d'Elo à trois marqueurs (trait noir : vrai Elo ; rond brique : modèle de base ; losange sarcelle : nous, FT-B) :
+**Affiché :** sous-titre « Elo moyen sur nos 10 dernières parties rapides (5 pour Hugo) · règle de 100 à 2 000 » ; une carte par joueur, avec sa photo et une règle d'Elo à trois marqueurs (trait noir : vrai Elo ; rond brique : modèle de base ; losange sarcelle : nous, FT-B) :
 
-| Joueur | Réel | Base | Nous |
-|---|---|---|---|
-| Thibault | 965 | 1 533 | 965 |
-| Maël | 498 | 1 667 | 968 |
-| Hugo | 892 | 1 583 | 803 |
-| Paul | 1 479 | 1 433 | 1 710 |
+| Joueur | Parties | Réel | Base | Nous |
+|---|---|---|---|---|
+| Thibault | 10 | 959 | 1 630 | 1 179 |
+| Maël | 10 | 492 | 1 700 | 1 007 |
+| Hugo | 5 | 877 | 1 680 | 837 |
+| Paul | 10 | 1 494 | 1 570 | 1 737 |
 
-En bas : « La partie du début : Maël, 490 · Base 1 400 · Nous 371 » et « Erreur par partie : 622 → 403 ».
+En bas : « La partie du début : Maël, 490 · Base 1 400 · Nous 371 » et « Erreur par partie : 694 → 423 » (35 parties). Ces textes sont recalculés à partir de `resultats_demo/` à chaque génération du PDF.
 
 **Visuel :** `figures/f12_demo_{thibault,mael,hugo,paul}.svg` (sans photo) ; photos `presentation/*.jpg|png`, sur cette slide uniquement (non versionnées).
 
 **Notes :**
-> « Testons-le sur nous. On a pris nos trois dernières parties rapides, et celles de Paul. Le modèle de base donne à peu près le même Elo à tout le monde, entre 1 430 et 1 670, et il classe Paul, le plus fort, en dernier. Notre modèle le classe premier. Il n'est pas parfait : Maël est surestimé de 470 points. Mais l'erreur par partie passe de 622 à 403. Et la partie du début ? C'était celle de Maël, à 490. Le modèle de base disait 1 400 ; le nôtre, 371. »
+> « Testons-le sur nous. On a pris nos dix dernières parties rapides, cinq pour moi, et celles de Paul. Le modèle de base donne à peu près le même Elo à tout le monde, entre 1 570 et 1 700, et il classe Paul, le plus fort, en dernier. Notre modèle le classe premier. Il n'est pas parfait : Maël est surestimé de 500 points. Mais l'erreur par partie passe de 694 à 423. Et la partie du début ? C'était celle de Maël, à 490. Le modèle de base disait 1 400 ; le nôtre, 371. »
 
-**Sources :** `resultats_demo/elo_moyen_par_joueur.csv`, `predictions_demo.csv` (06c, 3 parties par joueur ; Joueur 1 = Thibault, 2 = Maël, 3 = Hugo, 4 = Paul). 622 et 403 : `07_rendu_final.ipynb`, annexe.
+**Sources :** `resultats_demo/elo_moyen_par_joueur.csv`, `predictions_demo.csv` (06c ; Joueur 1 = Thibault, 2 = Maël, 3 = Hugo, 4 = Paul). Erreur par partie : moyenne de |prédit − réel| sur les 35 parties en version d'origine (693,6 et 422,8). Maël : FT-B 1 006,8 contre 492,3, soit +514,5.
 
 ---
 
 ## Slide 13 — Dédicace à Paul (page 23, Hugo, 25 s)
 
-**Titre :** « Pour Paul, parti aux États-Unis : le modèle de base lui retire 100 points, le nôtre ne le pénalise pas »
+**Titre :** « Pour Paul, parti aux États-Unis : le modèle de base lui retire 95 points en moyenne, le nôtre ne le pénalise pas »
 
-**Affiché :** deux règles parallèles, avec les drapeaux France et États-Unis : modèle de base 1 433 puis 1 333, avec une flèche courbe et **−100** en grand ; notre modèle 1 710 puis 1 744 ; trait gris pour son vrai Elo (1 479). Moyennes sur ses 3 parties. Pas de photo sur cette slide.
+**Affiché :** deux règles parallèles, avec les drapeaux France et États-Unis : modèle de base 1 570 puis 1 475, avec une flèche courbe et **−95** en grand ; notre modèle 1 737 puis 1 747 ; trait gris pour son vrai Elo (1 494). Moyennes sur ses 10 parties. Pas de photo sur cette slide.
 
 **Visuel :** `figures/f13_paul_france_etats_unis.svg`.
 
 **Notes :**
-> « Cette slide est pour Paul, notre ami parti vivre aux États-Unis cette année. On a présenté ses parties deux fois : comme français, puis comme américain. Le modèle de base lui retire 100 points, juste à cause du mot « États-Unis ». Notre modèle, lui, ne le pénalise pas. Paul, tu peux jouer tranquille. »
+> « Cette slide est pour Paul, notre ami parti vivre aux États-Unis cette année. On a présenté ses dix parties deux fois : comme français, puis comme américain. Le modèle de base lui retire près de 100 points en moyenne, juste à cause du mot « États-Unis », et jusqu'à 200 sur certaines parties. Notre modèle, lui, ne le pénalise pas. Paul, tu peux jouer tranquille. »
 
-**Sources :** `resultats_demo/france_etats_unis.csv` (base : −100 sur les 3 parties ; FT-B : +100, 0, 0).
+**Sources :** `resultats_demo/france_etats_unis.csv` (base : −95 en moyenne, 7 parties sur 10 pénalisées, de −100 à −200 ; FT-B : +10 en moyenne, une seule partie change, de +100 ; FT-A : −20 en moyenne, une seule partie, de −200).
 
 ---
 
@@ -358,7 +360,7 @@ En bas : « La partie du début : Maël, 490 · Base 1 400 · Nous 371 » et « 
 | 29, 30 | Partie g1852 (États-Unis, 707 Elo) : waterfall du modèle de base (−190 pour le pays), puis de FT-B (−10) |
 | 31, 32 | Partie 3 de Paul, version « États-Unis » : modèle de base (−105), puis FT-B (0) |
 | 33 | SHAP du gradient boosting : pays 0,9 %, ACPL 37 % (`resultats_xai_baseline/fig_importance_globale.png`) |
-| 34 | Démo complète avec FT-A (`resultats_demo/fig_demo_elo_moyen.png`) |
+| 34 | Démo complète avec FT-A, sur nos 10 dernières parties (`resultats_demo/fig_demo_elo_moyen.png`) |
 | 35 | Benchmark complet : erreur, R², bonne tranche, écart entre pays, part SHAP du pays |
 
 Les graphiques des notebooks ne figurent qu'ici ; tous les visuels des slides 1.1 à 14 sont faits pour la projection.
@@ -411,5 +413,5 @@ Les prompts ne contiennent ni pseudo, ni lien, ni Elo de l'adversaire, et un scr
 | Les notes manquent (le PDF n'en contient pas) | Imprimer ce plan, ou l'ouvrir sur un téléphone. |
 | Retard sur le minutage | Pages 3 à 9 : cliquer sans commenter les coups 1 à 4, ne parler qu'à la gaffe (page 8) et au mat (page 9) : gain d'environ 15 s. Slide 10 : ne pas citer 78 % → 10 %. Slide 12 : couper la phrase sur Maël surestimé. |
 | Un présentateur absent | Les deux autres reprennent ses slides à partir des notes. Si Maël est absent, la révélation de la slide 12 devient « c'était la partie de Maël, qui n'a pas pu venir ». |
-| Les résultats de 06c sur 10 parties arrivent avant la soutenance | Régénérer le PDF : les règles de la démo et de Paul se recalculent à partir de `resultats_demo/`. Revérifier les titres des slides 12 et 13 (Paul toujours dernier, puis premier ? toujours −100 ?) et remplacer « 3 dernières parties ». |
+| La démo est relancée (nouvelles parties) | Remplacer `resultats_demo/`, puis régénérer le PDF : les règles, l'erreur par partie, la partie de l'accroche, le nombre de parties et l'écart de Paul se recalculent. Revérifier à la main le titre de la slide 12 (Paul toujours dernier, puis premier ?) et les chiffres du texte oral (pages 22 et 23). |
 | Le logo chess.com est fourni | Le déposer sous `presentation/logos/chesscom.svg` ou `.png`, puis régénérer le PDF. |
